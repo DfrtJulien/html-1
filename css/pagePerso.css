@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+header {
+    padding: 25px 15px;
+    background-color: rgb(94, 117, 194);
+    color: rgb(238, 233, 233);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.shop_name{
+    font-size: 1.8em;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.1em;
+    padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.main {
+    background-color: rgb(253, 253, 253);
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 3em;
+    padding: 25px;
+}
+
+.info_card {
+    background-color: rgb(228, 231, 240);
+    width: 250px;
+    padding: 15px;
+    color: rgb(250, 246, 246);
+    margin-left: 35px;
+}
+
+.info_card h3 {
+    color: rgb(75, 50, 221);
+    font-size: 1.5em;
+    padding: 15px 0;
+}
+
+.info_card p {
+    font-size: 1.2em;
+    color: black;
+}
+
+.info_card button {
+    padding: 15px;
+    border: none;
+    background-color: rgb(75, 50, 221);
+    color: rgb(250, 246, 246);
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
