@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    background-color: black;
+}
+
+table {
+  border-collapse: collapse;
+}
+th, td {
+    width: 25px;
+    height: 25px;
+
+}
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: rgb(66, 80, 163);
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blacker {
+    background-color: black;
+}
+
+.blue {
+    background-color: rgb(64, 139, 224);
+}
+
+.grey {
+    background-color: rgb(91, 67, 230);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.beige {
+    background-color: burlywood;
+}
