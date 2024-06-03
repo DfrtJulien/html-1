@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(244, 118, 213);
+}
+
+.boite {
+    background: center no-repeat url(../img/siamois.jpg);
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+    background-color: aqua;
+    margin: 2vh;
+    border: 5px double rgb(248, 243, 248);
+    float: left;
+    transition: all 0.5s;
+}
+
+.boite:hover {
+    height: 13vh;
+    width: 21vh;
+}
